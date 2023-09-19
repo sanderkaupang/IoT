@@ -37,3 +37,16 @@ D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.csproj.CoreCom
 D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.exe
 D:\Documents\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.pdb
 C:\Users\kris-\OneDrive\Dokumenter\GitHub\Group3\Code\Code_group3\obj\Debug\Code_group3.ServerCon.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\bin\Debug\Code_group3.exe.config
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\bin\Debug\Code_group3.exe
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\bin\Debug\Code_group3.pdb
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.csproj.AssemblyReference.cache
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.AlarmHandler.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.Home.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.Monitoring.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.Properties.Resources.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.ServerCon.resources
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.csproj.GenerateResource.cache
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.csproj.CoreCompileInputs.cache
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.exe
+C:\Users\Jardar Fagerlund\Documents\GitHub\IoT\Code\Code_group3\obj\Debug\Code_group3.pdb
