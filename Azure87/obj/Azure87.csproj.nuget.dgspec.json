@@ -44,9 +44,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Azure.Devices": {
+              "target": "Package",
+              "version": "[1.39.0, )"
+            },
             "Microsoft.Azure.Devices.Client": {
               "target": "Package",
               "version": "[1.42.0, )"
+            },
+            "Microsoft.Azure.Devices.Shared": {
+              "target": "Package",
+              "version": "[1.30.3, )"
             },
             "System.Device.Gpio": {
               "target": "Package",
