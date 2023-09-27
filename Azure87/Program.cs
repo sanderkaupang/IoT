@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Device.Gpio;
+using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 namespace Azure68
 {
