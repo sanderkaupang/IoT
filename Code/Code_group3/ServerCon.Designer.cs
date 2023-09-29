@@ -30,6 +30,7 @@
         {
             this.dgvtables = new System.Windows.Forms.DataGridView();
             this.btnCheckTables = new System.Windows.Forms.Button();
+            this.btnBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvtables)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@
             this.dgvtables.RowTemplate.Height = 24;
             this.dgvtables.Size = new System.Drawing.Size(591, 333);
             this.dgvtables.TabIndex = 0;
+            this.dgvtables.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvtables_CellContentClick);
             // 
             // btnCheckTables
             // 
@@ -53,11 +55,22 @@
             this.btnCheckTables.UseVisualStyleBackColor = true;
             this.btnCheckTables.Click += new System.EventHandler(this.btnCheckTables_Click);
             // 
+            // btnBtn
+            // 
+            this.btnBtn.Location = new System.Drawing.Point(55, 152);
+            this.btnBtn.Name = "btnBtn";
+            this.btnBtn.Size = new System.Drawing.Size(75, 23);
+            this.btnBtn.TabIndex = 2;
+            this.btnBtn.Text = "button1";
+            this.btnBtn.UseVisualStyleBackColor = true;
+            this.btnBtn.Click += new System.EventHandler(this.btnBtn_Click);
+            // 
             // ServerCon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(988, 663);
+            this.Controls.Add(this.btnBtn);
             this.Controls.Add(this.btnCheckTables);
             this.Controls.Add(this.dgvtables);
             this.Name = "ServerCon";
@@ -71,5 +84,6 @@
 
         private System.Windows.Forms.DataGridView dgvtables;
         private System.Windows.Forms.Button btnCheckTables;
+        private System.Windows.Forms.Button btnBtn;
     }
 }
