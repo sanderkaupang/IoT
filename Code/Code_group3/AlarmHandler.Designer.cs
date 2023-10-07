@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnAlarmActive = new System.Windows.Forms.Button();
             this.btnAlarmDeactive = new System.Windows.Forms.Button();
             this.dgvAlarmActive = new System.Windows.Forms.DataGridView();
@@ -75,13 +76,18 @@
             // dgvAlarmActive
             // 
             this.dgvAlarmActive.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlarmActive.GridColor = System.Drawing.Color.Black;
             this.dgvAlarmActive.Location = new System.Drawing.Point(92, 46);
             this.dgvAlarmActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAlarmActive.Name = "dgvAlarmActive";
             this.dgvAlarmActive.RowHeadersWidth = 51;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.dgvAlarmActive.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvAlarmActive.RowTemplate.Height = 24;
             this.dgvAlarmActive.Size = new System.Drawing.Size(797, 222);
             this.dgvAlarmActive.TabIndex = 2;
+            this.dgvAlarmActive.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlarmActive_CellContentClick);
             // 
             // btnLog
             // 

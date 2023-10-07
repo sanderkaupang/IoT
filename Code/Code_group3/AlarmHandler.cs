@@ -146,5 +146,10 @@ namespace Code_group3
             }
 
         }
+
+        private void dgvAlarmActive_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
