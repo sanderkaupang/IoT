@@ -31,7 +31,7 @@ namespace Code_group3
 
         private void btnCheckTables_Click(object sender, EventArgs e)
         {
-            string sqlQuery2 = @"SELECT * from Car";
+            string sqlQuery2 = @"SELECT * from Alarm";
             try
             {
                 SQLcon classConnection = new SQLcon();
@@ -88,6 +88,30 @@ namespace Code_group3
 
             dgvtables.Rows.Add(BtnMsg);
             dgvtables.Rows.Clear();
+        }
+
+        private void BtnToCloud_Click(object sender, EventArgs e)
+        {
+            string sqlQuery2 = @"INSERT INTO Car (Regnumber, Color)
+                                    VALUES ('ABC123', 'Blå');";
+            try
+            {
+                SQLcon classConnection = new SQLcon();
+                classConnection.ConnectionToDatabase();
+                SqlDataAdapter sda;
+                DataTable dt;
+                sda = new SqlDataAdapter(sqlQuery2, SQLcon.myCon);
+                dt = new DataTable();
+                sda.Fill(dt);
+                dgvtables.Rows.Clear();
+                dgvtables.DataSource = dt;
+
+
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show(error.Message);
+            }
         }
     }
 }
