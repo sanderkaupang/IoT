@@ -1,11 +1,13 @@
 ﻿using Microsoft.Azure.Devices.Client;
 using Microsoft.Azure.Devices.Shared;
+using Microsoft.Azure.Devices;
 using Microsoft.VisualBasic;
 using System;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Device.Gpio;
+using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 namespace Azure68
 {
@@ -13,6 +15,7 @@ namespace Azure68
     {
         static string DeviceConnectionString = "HostName=IoTHub3.azure-devices.net;DeviceId=RP;SharedAccessKey=vESrek3yWdKZGTLwb6+awhgl5Wfu05Lrc8qZvrIRHpo=";
         static DeviceClient Client = null;
+        static ServiceClient client;
 
         static void Main(string[] args)
         {
