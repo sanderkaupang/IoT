@@ -214,6 +214,8 @@
     <Compile Include="AlarmHandler.Designer.cs">
       <DependentUpon>AlarmHandler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\FillCbo.cs" />
+    <Compile Include="Classes\FillDgv.cs" />
     <Compile Include="Classes\ServerPinger.cs" />
     <Compile Include="Classes\SQLcon.cs" />
     <Compile Include="Home.cs">
@@ -283,6 +285,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightPNG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -37,7 +37,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnServerCon = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +48,7 @@
             this.btnAlarmHandling.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlarmHandling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlarmHandling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlarmHandling.Location = new System.Drawing.Point(191, 402);
+            this.btnAlarmHandling.Location = new System.Drawing.Point(188, 327);
             this.btnAlarmHandling.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAlarmHandling.Name = "btnAlarmHandling";
             this.btnAlarmHandling.Size = new System.Drawing.Size(192, 53);
@@ -65,7 +64,7 @@
             this.btnMonitoring.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMonitoring.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMonitoring.Location = new System.Drawing.Point(583, 402);
+            this.btnMonitoring.Location = new System.Drawing.Point(580, 327);
             this.btnMonitoring.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMonitoring.Name = "btnMonitoring";
             this.btnMonitoring.Size = new System.Drawing.Size(164, 53);
@@ -99,7 +98,7 @@
             this.txtBoxServerStatus.BackColor = System.Drawing.Color.Azure;
             this.txtBoxServerStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtBoxServerStatus.Location = new System.Drawing.Point(111, 16);
-            this.txtBoxServerStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBoxServerStatus.Margin = new System.Windows.Forms.Padding(4);
             this.txtBoxServerStatus.Name = "txtBoxServerStatus";
             this.txtBoxServerStatus.Size = new System.Drawing.Size(133, 15);
             this.txtBoxServerStatus.TabIndex = 8;
@@ -113,7 +112,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Code_group3.Properties.Resources.bell;
-            this.pictureBox2.Location = new System.Drawing.Point(223, 292);
+            this.pictureBox2.Location = new System.Drawing.Point(220, 217);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(128, 87);
@@ -124,7 +123,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Code_group3.Properties.Resources.television;
-            this.pictureBox1.Location = new System.Drawing.Point(583, 265);
+            this.pictureBox1.Location = new System.Drawing.Point(580, 190);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(164, 132);
@@ -132,23 +131,12 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // btnServerCon
-            // 
-            this.btnServerCon.Location = new System.Drawing.Point(425, 38);
-            this.btnServerCon.Name = "btnServerCon";
-            this.btnServerCon.Size = new System.Drawing.Size(159, 102);
-            this.btnServerCon.TabIndex = 9;
-            this.btnServerCon.Text = "ServerCon";
-            this.btnServerCon.UseVisualStyleBackColor = true;
-            this.btnServerCon.Click += new System.EventHandler(this.btnServerCon_Click);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(988, 663);
-            this.Controls.Add(this.btnServerCon);
             this.Controls.Add(this.txtBoxServerStatus);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -178,7 +166,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtBoxServerStatus;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button btnServerCon;
     }
 }
 
