@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Code_group3.Classes;
 using Microsoft.Azure.Devices;
 using Microsoft.Azure.Devices.Shared;
 
@@ -23,7 +24,6 @@ namespace Code_group3
         public static async Task QueryTwinRebootReported()
         {
             Twin twin = await registryManager.GetTwinAsync(targetDevice);
-            //Console.WriteLine(twin.Properties.Reported.ToJson());
         }
 
         public static async Task StartReboot()
@@ -32,15 +32,9 @@ namespace Code_group3
             {
                 client = ServiceClient.CreateFromConnectionString(connString);
                 CloudToDeviceMethod method = new CloudToDeviceMethod("on"); //Sender melding opp til sky(reboot)
-                                                                            //CloudToDeviceMethod off = new CloudToDeviceMethod("off");
                 method.ResponseTimeout = TimeSpan.FromSeconds(30);
-                // off.ResponseTimeout = TimeSpan.FromSeconds(30);
-
                 CloudToDeviceMethodResult result = await
-                  //  client.InvokeDeviceMethodAsync(targetDevice, off);
                   client.InvokeDeviceMethodAsync(targetDevice, method);
-
-                //linje 21 til 28 sender en kommand til twin, som twin skal utføre.
             }
             catch (Exception)
             {
@@ -57,17 +51,10 @@ namespace Code_group3
             try
             {
                 client = ServiceClient.CreateFromConnectionString(connString);
-                //CloudToDeviceMethod method = new CloudToDeviceMethod("on"); //Sender melding opp til sky(reboot)
                 CloudToDeviceMethod off = new CloudToDeviceMethod("off");
-                //method.ResponseTimeout = TimeSpan.FromSeconds(30);
                 off.ResponseTimeout = TimeSpan.FromSeconds(30);
-
                 CloudToDeviceMethodResult result = await
                   client.InvokeDeviceMethodAsync(targetDevice, off);
-                //client.InvokeDeviceMethodAsync(targetDevice, method);
-
-                //linje 21 til 28 sender en kommand til twin, som twin skal utføre.
-
             }
             catch (Exception ex)
             {
@@ -81,6 +68,8 @@ namespace Code_group3
         public Monitoring()
         {   
             InitializeComponent();
+            FillDgv fillDgv = new FillDgv();
+            fillDgv.fillDgvM(dgvM);
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -93,8 +82,9 @@ namespace Code_group3
 
         private void btnLightOn_Click(object sender, EventArgs e)
         {
-            
-                registryManager = RegistryManager.CreateFromConnectionString(connString);
+            pbLight.Visible = true;  // Vis PictureBox1
+
+            registryManager = RegistryManager.CreateFromConnectionString(connString);
             try
             {
                 StartReboot();
@@ -110,6 +100,7 @@ namespace Code_group3
 
         private void btnLightOff_Click(object sender, EventArgs e)
         {
+            pbLight.Visible = false; // Skjul PictureBox2
             registryManager = RegistryManager.CreateFromConnectionString(connString);
 
             try
@@ -121,6 +112,11 @@ namespace Code_group3
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        public void dgvM_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
