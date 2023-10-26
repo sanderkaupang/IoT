@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvM = new System.Windows.Forms.DataGridView();
             this.btnLightOn = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnLightOff = new System.Windows.Forms.Button();
             this.pbLight = new System.Windows.Forms.PictureBox();
+            this.btnLightOff = new System.Windows.Forms.Button();
+            this.TimerMonitorActiveAlarm = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvM)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLight)).BeginInit();
@@ -48,8 +50,8 @@
             this.dgvM.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvM.Name = "dgvM";
             this.dgvM.RowHeadersWidth = 51;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LightCoral;
-            this.dgvM.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCoral;
+            this.dgvM.RowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvM.RowTemplate.Height = 24;
             this.dgvM.Size = new System.Drawing.Size(694, 292);
             this.dgvM.TabIndex = 0;
@@ -100,6 +102,17 @@
             this.panel1.Size = new System.Drawing.Size(368, 702);
             this.panel1.TabIndex = 11;
             // 
+            // pbLight
+            // 
+            this.pbLight.Image = global::Code_group3.Properties.Resources.LightPNG;
+            this.pbLight.Location = new System.Drawing.Point(128, 223);
+            this.pbLight.Name = "pbLight";
+            this.pbLight.Size = new System.Drawing.Size(116, 108);
+            this.pbLight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbLight.TabIndex = 11;
+            this.pbLight.TabStop = false;
+            this.pbLight.Visible = false;
+            // 
             // btnLightOff
             // 
             this.btnLightOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,16 +125,9 @@
             this.btnLightOff.UseVisualStyleBackColor = true;
             this.btnLightOff.Click += new System.EventHandler(this.btnLightOff_Click);
             // 
-            // pbLight
+            // TimerMonitorActiveAlarm
             // 
-            this.pbLight.Image = global::Code_group3.Properties.Resources.LightPNG;
-            this.pbLight.Location = new System.Drawing.Point(128, 223);
-            this.pbLight.Name = "pbLight";
-            this.pbLight.Size = new System.Drawing.Size(116, 108);
-            this.pbLight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbLight.TabIndex = 11;
-            this.pbLight.TabStop = false;
-            this.pbLight.Visible = false;
+            this.TimerMonitorActiveAlarm.Tick += new System.EventHandler(this.TimerMonitorActiveAlarm_Tick);
             // 
             // Monitoring
             // 
@@ -152,5 +158,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnLightOff;
         private System.Windows.Forms.PictureBox pbLight;
+        private System.Windows.Forms.Timer TimerMonitorActiveAlarm;
     }
 }

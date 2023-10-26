@@ -13,7 +13,7 @@ namespace Code_group3.Classes
     {
         public void fillDgvM(DataGridView dataGridView)
         {
-            string sqlQuery2 = @"SELECT * from Alarm";
+            string sqlQuery2 = @"SELECT * from Alarm ORDER BY alarmId DESC";
             try
             {
                 SQLcon classConnection = new SQLcon();
@@ -57,7 +57,7 @@ namespace Code_group3.Classes
                     comboBox.Items.Add(data);
                 }
 
-            string sqlQuery4 = @"SELECT * from Alarm";
+            string sqlQuery4 = @"SELECT * from AlarmKvittert1 ORDER BY alarmId DESC";
             try
             {
 

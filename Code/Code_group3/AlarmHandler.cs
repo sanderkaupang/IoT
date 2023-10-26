@@ -17,8 +17,9 @@ namespace Code_group3
     {
         public AlarmHandler()
         {
+            
             InitializeComponent();
-
+            TimerAlarmACtive.Enabled = true;
             FillCbo fillCbo = new FillCbo();
             fillCbo.fillCbo(cboAlarmId);  
 
@@ -37,7 +38,7 @@ namespace Code_group3
             picBoxDeactive.Visible = true;  // Vis PictureBox1
             picBoxActive.Visible = false; // Skjul PictureBox2
 
-            string sqlQuery5 = @"select * from AlarmKvittert1";
+            string sqlQuery5 = @"select * from AlarmKvittert1 ORDER BY alarmId DESC";
 
             try
             {
@@ -76,13 +77,19 @@ namespace Code_group3
             FillDgv fillDgv = new FillDgv();
             fillDgv.FillDgvAcknowledge(cboAlarmId, dgvKvittert);
             fillDgv.fillDgvM(dgvAlarmActive);
-           
 
+            cboAlarmId.Text = "";
         }
 
         private void dgvAlarmActive_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void TimerAlarmACtive_Tick(object sender, EventArgs e)
+        {
+            FillDgv fillDgv = new FillDgv();
+            fillDgv.fillDgvM(dgvAlarmActive);
         }
     }
 }

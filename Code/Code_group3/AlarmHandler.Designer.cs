@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnAlarmActive = new System.Windows.Forms.Button();
             this.btnAlarmDeactive = new System.Windows.Forms.Button();
             this.dgvAlarmActive = new System.Windows.Forms.DataGridView();
@@ -41,6 +42,7 @@
             this.AlarmList = new System.Windows.Forms.GroupBox();
             this.dgvKvittert = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.TimerAlarmACtive = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlarmActive)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxDeactive)).BeginInit();
@@ -82,9 +84,9 @@
             this.dgvAlarmActive.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvAlarmActive.Name = "dgvAlarmActive";
             this.dgvAlarmActive.RowHeadersWidth = 51;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvAlarmActive.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.dgvAlarmActive.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvAlarmActive.RowTemplate.Height = 24;
             this.dgvAlarmActive.Size = new System.Drawing.Size(797, 222);
             this.dgvAlarmActive.TabIndex = 2;
@@ -194,6 +196,11 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Acknowledged Alarms";
             // 
+            // TimerAlarmACtive
+            // 
+            this.TimerAlarmACtive.Interval = 1000;
+            this.TimerAlarmACtive.Tick += new System.EventHandler(this.TimerAlarmACtive_Tick);
+            // 
             // AlarmHandler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -231,5 +238,6 @@
         private System.Windows.Forms.DataGridView dgvKvittert;
         private System.Windows.Forms.ComboBox cboAlarmId;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Timer TimerAlarmACtive;
     }
 }

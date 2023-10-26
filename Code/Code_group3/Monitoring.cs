@@ -68,6 +68,7 @@ namespace Code_group3
         public Monitoring()
         {   
             InitializeComponent();
+            TimerMonitorActiveAlarm.Enabled = true;
             FillDgv fillDgv = new FillDgv();
             fillDgv.fillDgvM(dgvM);
         }
@@ -117,6 +118,12 @@ namespace Code_group3
         public void dgvM_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void TimerMonitorActiveAlarm_Tick(object sender, EventArgs e)
+        {
+            FillDgv fillDgv = new FillDgv();
+            fillDgv.fillDgvM(dgvM);
         }
     }
 }
