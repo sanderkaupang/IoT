@@ -147,7 +147,7 @@ namespace Azure68
                 while (true)
                 {
 
-                    string read = Console.ReadLine();
+                    
                     registryManager = RegistryManager.CreateFromConnectionString(connString);
                     //if (read == "a")
                     //{
