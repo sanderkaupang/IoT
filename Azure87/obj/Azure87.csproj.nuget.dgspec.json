@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kris-\\OneDrive\\Dokumenter\\GitHub\\IoT\\Azure87\\Azure87.csproj": {}
+    "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure87\\Azure87.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kris-\\OneDrive\\Dokumenter\\GitHub\\IoT\\Azure87\\Azure87.csproj": {
+    "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure87\\Azure87.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kris-\\OneDrive\\Dokumenter\\GitHub\\IoT\\Azure87\\Azure87.csproj",
+        "projectUniqueName": "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure87\\Azure87.csproj",
         "projectName": "Azure87",
-        "projectPath": "C:\\Users\\kris-\\OneDrive\\Dokumenter\\GitHub\\IoT\\Azure87\\Azure87.csproj",
-        "packagesPath": "C:\\Users\\kris-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kris-\\OneDrive\\Dokumenter\\GitHub\\IoT\\Azure87\\obj\\",
+        "projectPath": "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure87\\Azure87.csproj",
+        "packagesPath": "C:\\Users\\Jardar Fagerlund\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure87\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kris-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jardar Fagerlund\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,30 +72,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
