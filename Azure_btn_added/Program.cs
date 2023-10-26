@@ -149,43 +149,43 @@ namespace Azure68
 
                     string read = Console.ReadLine();
                     registryManager = RegistryManager.CreateFromConnectionString(connString);
-                    if (read == "a")
+                    //if (read == "a")
+                    //{
+
+                    //}
+                    //else
+                    //{
+                    //    BtnPush().Wait();
+                    //}
+
+                    const int Pin = 21;
+                    const string Alert = "ALERT 🚨";
+                    const string Ready = "READY ✅";
+
+
+
+
+                    using var controller = new GpioController();
+                    controller.OpenPin(Pin, PinMode.InputPullUp);
+                    //Her må vi legge inn logikk for knappen 
+                    if (controller.Read(Pin) == PinValue.High)
                     {
 
                     }
                     else
                     {
                         BtnPush().Wait();
+
                     }
 
-                        //const int Pin = 21;
-                        //const string Alert = "ALERT 🚨";
-                        //const string Ready = "READY ✅";
+
+                    controller.RegisterCallbackForPinValueChangedEvent(
+                        Pin,
+                        PinEventTypes.Falling | PinEventTypes.Rising,
+                        OnPinEvent);
 
 
-
-
-                        //using var controller = new GpioController();
-                        //controller.OpenPin(Pin, PinMode.InputPullUp);
-                        ////Her må vi legge inn logikk for knappen 
-                        //if (controller.Read(Pin) == PinValue.High)
-                        //{
-
-                        //}
-                        //else
-                        //{
-                        //    BtnPush().Wait();
-
-                        //}
-
-
-                        //controller.RegisterCallbackForPinValueChangedEvent(
-                        //    Pin,
-                        //    PinEventTypes.Falling | PinEventTypes.Rising,
-                        //    OnPinEvent);
-
-
-                        System.Threading.Thread.Sleep(100);
+                    System.Threading.Thread.Sleep(500);
 
 
 
