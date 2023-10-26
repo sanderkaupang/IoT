@@ -27,19 +27,9 @@ namespace Azure68
         //Trykknapp
         public static async Task BtnPush()
         {
-            //client = ServiceClient.CreateFromConnectionString(connString);
-            //CloudToDeviceMethod method = new CloudToDeviceMethod("open"); //Sender melding opp til sky(reboot)
-            //CloudToDeviceMethod off = new CloudToDeviceMethod("off");
-            //method.ResponseTimeout = TimeSpan.FromSeconds(30);
-            //off.ResponseTimeout = TimeSpan.FromSeconds(30);
 
-            //CloudToDeviceMethodResult result = await
-            ////  client.InvokeDeviceMethodAsync(targetDevice, off);
-            //  client.InvokeDeviceMethodAsync(targetDevice, method);
 
-            //linje 21 til 28 sender en kommand til twin, som twin skal utføre.
-
-            Console.WriteLine("Invoked firmware update on device.");
+            Console.WriteLine("ALARM!");
 
 
             //Prøver og sende opp til database
@@ -154,49 +144,57 @@ namespace Azure68
             try
             {
                 // Btn åpen RP
-                registryManager = RegistryManager.CreateFromConnectionString(connString);
-                    const int Pin = 21;
-                    const string Alert = "ALERT 🚨";
-                    const string Ready = "READY ✅";
+                while (true)
+                {
 
-
-                    
-                    
-                    using var controller = new GpioController();
-                    controller.OpenPin(Pin, PinMode.InputPullUp);
-                    //Her må vi legge inn logikk for knappen 
-                    if (controller.Read(Pin) == PinValue.High)
+                    string read = Console.ReadLine();
+                    registryManager = RegistryManager.CreateFromConnectionString(connString);
+                    if (read == "a")
                     {
 
                     }
                     else
                     {
                         BtnPush().Wait();
-
                     }
-                    
 
-                    controller.RegisterCallbackForPinValueChangedEvent(
-                        Pin,
-                        PinEventTypes.Falling | PinEventTypes.Rising,
-                        OnPinEvent);
+                        //const int Pin = 21;
+                        //const string Alert = "ALERT 🚨";
+                        //const string Ready = "READY ✅";
 
 
-                    System.Threading.Thread.Sleep(100);
+
+
+                        //using var controller = new GpioController();
+                        //controller.OpenPin(Pin, PinMode.InputPullUp);
+                        ////Her må vi legge inn logikk for knappen 
+                        //if (controller.Read(Pin) == PinValue.High)
+                        //{
+
+                        //}
+                        //else
+                        //{
+                        //    BtnPush().Wait();
+
+                        //}
+
+
+                        //controller.RegisterCallbackForPinValueChangedEvent(
+                        //    Pin,
+                        //    PinEventTypes.Falling | PinEventTypes.Rising,
+                        //    OnPinEvent);
+
+
+                        System.Threading.Thread.Sleep(100);
 
 
 
                     static void OnPinEvent(object sender, PinValueChangedEventArgs args)
                     {
-                        
-                    }
-                    //if (consoleInput == "hei") // Argument for at knappen skal gi beskjed
-                    //{
-                    //    BtnPush().Wait();
-                    //    Console.WriteLine("Klar for ny kommand");
 
-                        
-                    //}
+                    }
+                }
+
                 
             }
             catch (Exception)
