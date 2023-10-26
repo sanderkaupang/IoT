@@ -29,7 +29,7 @@ namespace Azure68
                 //   and updating the reported properties.
                 try
                 {
-                    Console.WriteLine("Rebooting!");
+                    
 
                     // Update device twin with reboot time. 
                     //TwinCollection reportedProperties, reboot, lastReboot;
@@ -79,7 +79,7 @@ namespace Azure68
                 //   and updating the reported properties.
                 try
                 {
-                    Console.WriteLine("Rebooting!");
+                    
 
                     // Update device twin with reboot time. 
                     //TwinCollection reportedProperties, reboot, lastReboot;

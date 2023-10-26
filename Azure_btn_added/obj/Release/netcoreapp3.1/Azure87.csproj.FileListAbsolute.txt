@@ -1,0 +1,206 @@
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.exe
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.deps.json
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.json
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.dev.json
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.AssemblyReference.cache
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.AssemblyInfoInputs.cache
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.AssemblyInfo.cs
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.CoreCompileInputs.cache
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.CopyComplete
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\obj\Release\netcoreapp3.1\Azure87.genruntimeconfig.cache
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Device.Gpio.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Jardar Fagerlund\Documents\Visual_Studio_prosjekt\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.exe
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.deps.json
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.json
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.dev.json
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Device.Gpio.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.AssemblyReference.cache
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.AssemblyInfoInputs.cache
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.AssemblyInfo.cs
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.CoreCompileInputs.cache
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.csproj.CopyComplete
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.dll
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\sande\Documents\GitHub\IoT\Azure87\obj\Release\netcoreapp3.1\Azure87.genruntimeconfig.cache
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.exe
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.deps.json
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.json
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.dev.json
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Azure.Core.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Device.Gpio.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.AssemblyReference.cache
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.AssemblyInfoInputs.cache
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.AssemblyInfo.cs
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.CoreCompileInputs.cache
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.CopyComplete
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\sande\Desktop\Test\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.genruntimeconfig.cache
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sande\Desktop\Test\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.exe
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.deps.json
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.json
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.runtimeconfig.dev.json
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Azure.Core.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Buffers.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Codecs.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Codecs.Mqtt.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Common.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Handlers.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\DotNetty.Transport.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Amqp.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Client.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Azure.Devices.Shared.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Device.Gpio.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Memory.Data.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.AssemblyReference.cache
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.AssemblyInfoInputs.cache
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.AssemblyInfo.cs
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.CoreCompileInputs.cache
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.csproj.CopyComplete
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.dll
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.pdb
+C:\Users\Jardar Fagerlund\Downloads\Azure_btn_added_Finish\Azure_btn_added\obj\Release\netcoreapp3.1\Azure87.genruntimeconfig.cache
