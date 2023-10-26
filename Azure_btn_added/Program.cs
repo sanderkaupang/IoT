@@ -132,7 +132,7 @@ namespace Azure68
                 Client.SetMethodHandlerAsync("off", off, null).Wait();
                 Console.WriteLine("Waiting for reboot method\nPress enter to exit.");
                 Console.ReadLine();     // Denne gjør det mulig og vente på kommander fra skyen om led av/på
-                Console.WriteLine("Exiting...");
+                Console.WriteLine();
 
 
 
@@ -155,16 +155,13 @@ namespace Azure68
             {
                 // Btn åpen RP
                 registryManager = RegistryManager.CreateFromConnectionString(connString);
-
-                while (true)
-                {
                     const int Pin = 21;
                     const string Alert = "ALERT 🚨";
                     const string Ready = "READY ✅";
 
 
                     
-                    Console.WriteLine("Til sky");
+                    
                     using var controller = new GpioController();
                     controller.OpenPin(Pin, PinMode.InputPullUp);
                     //Her må vi legge inn logikk for knappen 
@@ -177,8 +174,7 @@ namespace Azure68
                         BtnPush().Wait();
 
                     }
-                    Console.WriteLine(
-                  $"Initial status ({DateTime.Now}): {(controller.Read(Pin) == PinValue.High ? Ready : Alert)}");
+                    
 
                     controller.RegisterCallbackForPinValueChangedEvent(
                         Pin,
@@ -192,8 +188,7 @@ namespace Azure68
 
                     static void OnPinEvent(object sender, PinValueChangedEventArgs args)
                     {
-                        Console.WriteLine(
-                            $"({DateTime.Now}) {(args.ChangeType is PinEventTypes.Rising ? Ready : Alert)}");
+                        
                     }
                     //if (consoleInput == "hei") // Argument for at knappen skal gi beskjed
                     //{
@@ -202,7 +197,7 @@ namespace Azure68
 
                         
                     //}
-                }
+                
             }
             catch (Exception)
             {
