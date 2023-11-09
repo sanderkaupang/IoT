@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPuihFDkV11cFl+un6J9lxbzTh5vEPYdrO560oi8YZGPDtj5h8dIgdgZrK2D/iDGkOKgjVB+oXcZqiVTzf3+Dw==",
+  "dgSpecHash": "YPIduGjztZ4cyMwG3tqaYxg4lomTQnBE1g0tBLNTx3ArGZzHOAwSQQveLbZzcM5GyUVFe+KyBW7jp0DOPT587Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jardar Fagerlund\\Downloads\\Azure_btn_added_Finish\\Azure_btn_added\\Azure87.csproj",
+  "projectFilePath": "C:\\Users\\Jardar Fagerlund\\Documents\\GitHub\\IoT\\Azure_btn_added\\Azure87.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jardar Fagerlund\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Jardar Fagerlund\\.nuget\\packages\\dotnetty.buffers\\0.7.0\\dotnetty.buffers.0.7.0.nupkg.sha512",

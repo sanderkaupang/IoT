@@ -36,10 +36,10 @@ namespace Code_group3
                 CloudToDeviceMethodResult result = await
                   client.InvokeDeviceMethodAsync(targetDevice, method);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
 
-                
             }
             
             
